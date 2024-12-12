@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Mega Menu | CodingNepal</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <div class="wrapper">
+        <div class="logo"><a href="#">ritika harsh</a></div>
+        <input type="radio" name="slider" id="menu-btn" />
+        <input type="radio" name="slider" id="close-btn" />
+        <ul class="nav-links">
+          <label for="close-btn" class="btn close-btn"
+            ><i class="fas fa-times"></i
+          ></label>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li>
+            <a href="#" class="desktop-item">Products</a>
+            <input type="checkbox" id="showMega" />
+            <label for="showMega" class="mobile-item">Mega Menu</label>
+            <div class="mega-box">
+              <div class="content">
+                <div class="row">
+                  <ul class="mega-links">
+                    <li><a href="#">Graphics</a></li>
+                    <li><a href="#">Vectors</a></li>
+                    <li><a href="#">Business cards</a></li>
+                    <li><a href="#">Custom logo</a></li>
+                    <li><a href="#">Vectors</a></li>
+                    <li><a href="#">Business cards</a></li>
+                    <li><a href="#">Custom logo</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <ul class="mega-links">
+                    <li><a href="#">Graphics</a></li>
+                    <li><a href="#">Vectors</a></li>
+                    <li><a href="#">Business cards</a></li>
+                    <li><a href="#">Custom logo</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <ul class="mega-links">
+                    <li><a href="#">Personal Email</a></li>
+                    <li><a href="#">Business Email</a></li>
+                    <li><a href="#">Mobile Email</a></li>
+                    <li><a href="#">Web Marketing</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <ul class="mega-links">
+                    <li><a href="#">Site Seal</a></li>
+                    <li><a href="#">VPS Hosting</a></li>
+                    <li><a href="#">Privacy Seal</a></li>
+                    <li><a href="#">Website design</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="#" class="desktop-item">Services</a>
+            <input type="checkbox" id="showDrop" />
+            <label for="showDrop" class="mobile-item">Dropdown Menu</label>
+            <ul class="drop-menu">
+              <li><a href="#">Drop menu 1</a></li>
+              <li><a href="#">Drop menu 2</a></li>
+              <li><a href="#">Drop menu 3</a></li>
+              <li><a href="#">Drop menu 4</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Clients</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Call+8369458583</a></li>
+        </ul>
+        <label for="menu-btn" class="btn menu-btn"
+          ><i class="fas fa-bars"></i
+        ></label>
+      </div>
+    </nav>
+
+    <section id="home">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="home-section">
+              <div class="home-image">
+                <img src="assests/background.jpg" alt="image" />
+              </div>
+              <div class="home-glass"></div>
+              <div class="home-text">
+                <h1 class="home-heading">We offer</h1>
+                <span>Laboratory</span>
+                <span>Accessories & </span>
+                <span>CRMs</span>
+                <p>
+                  JS Civil Lab offers the widest range of quality accessories
+                  for Engineering testing equipment & Certified Reference
+                  Materials for Civil Engineering Laboratory complying the
+                  requirements of National Internation standards.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="home-section">
+              <div class="home-image">
+                <img src="assests/pic2.jpg" alt="image" />
+              </div>
+              <div class="home-glass"></div>
+              <div class="home-text">
+                <h1 class="home-heading">We offer</h1>
+                <span>Mechanical </span>
+                <span>Testing Equipments</span>
+                <p>
+                  JS Civil Lab offers the widest range of testing equipment of
+                  construction and civil engineering Laboratories. Our Products
+                  designed in such a way to meet the requirements of National /
+                  Internation standards.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="home-section">
+              <div class="home-image">
+                <img src="assests/pic3.jpg" alt="image" />
+              </div>
+              <div class="home-glass"></div>
+              <div class="home-text">
+                <h1 class="home-heading">We offer</h1>
+                <span>Non Destructive </span>
+                <span>Testing Equipments</span>
+                <p>
+                  JS Civil Lab offers the widest range of quality accessories
+                  for Engineering testing equipment & Certified Reference
+                  Materials for Civil Engineering Laboratory complying the
+                  requirements of National Internation standards.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div> -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="section section-product">
+      <h1>Our Products</h1>
+      <div class="product-container">
+        <div class="product-card1">
+          <img src="assests/pic2.jpg" alt="image" />
+          <h3>METAL TESTING INSTRUMENTS</h3>
+          <div class="product-card-button">
+            <!-- <button>Enter</button> -->
+          </div>
+        </div>
+
+        <div class="product-card1">
+          <img src="assests/pic2.jpg" alt="image" />
+          <h3>METAL TESTING INSTRUMENTS</h3>
+          <div class="product-card-button">
+            <!-- <button>Enter</button> -->
+          </div>
+        </div>
+
+        <div class="product-card1">
+          <img src="assests/pic2.jpg" alt="image" />
+          <h3>METAL TESTING INSTRUMENTS</h3>
+          <div class="product-card-button">
+            <!-- <button>Enter</button> -->
+          </div>
+        </div>
+        <div class="product-card1">
+          <img src="assests/pic2.jpg" alt="image" />
+          <h3>METAL TESTING INSTRUMENTS</h3>
+          <div class="product-card-button">
+            <!-- <button>Enter</button> -->
+          </div>
+        </div>
+      </div>
+      <div class="product-container">
+        <div class="product-card1">
+          <img src="assests/pic2.jpg" alt="image" />
+          <h3>METAL TESTING INSTRUMENTS</h3>
+          <div class="product-card-button">
+            <!-- <button>Enter</button> -->
+          </div>
+        </div>
+
+        <div class="product-card1">
+          <img src="assests/pic2.jpg" alt="image" />
+          <h3>METAL TESTING INSTRUMENTS</h3>
+          <div class="product-card-button">
+            <!-- <button>Enter</button> -->
+          </div>
+        </div>
+
+        <div class="product-card1">
+          <img src="assests/pic2.jpg" alt="image" />
+          <h3>METAL TESTING INSTRUMENTS</h3>
+          <div class="product-card-button">
+            <!-- <button>Enter</button> -->
+          </div>
+        </div>
+        <div class="product-card1">
+          <img src="assests/pic2.jpg" alt="image" />
+          <h3>METAL TESTING INSTRUMENTS</h3>
+          <div class="product-card-button">
+            <!-- <button>Enter</button> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section section-services">
+      <h1>Our Services</h1>
+    </section>
+
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
