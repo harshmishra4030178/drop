@@ -607,11 +607,9 @@ p {
   flex-basis: 30%;
   background: rgb(180, 130, 86);
   border-radius: 10px;
-  margin-bottom: 5%;
   padding: 2rem;
   box-sizing: border-box;
   transition: 0.5s;
-  text-align: left;
 }
 
 .services-c {
@@ -620,6 +618,12 @@ p {
 
 .services-co {
   background: rgb(178, 131, 87);
+}
+
+.services-col,
+.services-c,
+.services-co p {
+  text-align: justify;
 }
 
 h2 {
@@ -641,7 +645,7 @@ h2 {
   .services-c,
   .services-co {
     flex-basis: 100%;
-    text-align: left;
+    margin-bottom: 2.5rem;
   }
   .services-col p,
   .services-c p,
@@ -656,7 +660,7 @@ h2 {
   width: 80%;
   margin: auto;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 60px;
 }
 .row {
   margin-top: 5%;
