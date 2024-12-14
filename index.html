@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Mega Menu | CodingNepal</title>
+    <title>QCC LAB SOLUTIONS PVT LTD</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -21,6 +21,13 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css" />
     <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"
@@ -29,81 +36,96 @@
     ></script>
   </head>
   <body>
+    <!-----------------------------------Navigation --------------------------------------------- -->
     <nav>
-      <div class="wrapper">
-        <div class="logo"><a href="#">ritika harsh</a></div>
-        <input type="radio" name="slider" id="menu-btn" />
-        <input type="radio" name="slider" id="close-btn" />
-        <ul class="nav-links">
-          <label for="close-btn" class="btn close-btn"
-            ><i class="fas fa-times"></i
-          ></label>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li>
-            <a href="#" class="desktop-item">Products</a>
-            <input type="checkbox" id="showMega" />
-            <label for="showMega" class="mobile-item">Mega Menu</label>
-            <div class="mega-box">
-              <div class="content">
-                <div class="row">
-                  <ul class="mega-links">
-                    <li><a href="#">Graphics</a></li>
-                    <li><a href="#">Vectors</a></li>
-                    <li><a href="#">Business cards</a></li>
-                    <li><a href="#">Custom logo</a></li>
-                    <li><a href="#">Vectors</a></li>
-                    <li><a href="#">Business cards</a></li>
-                    <li><a href="#">Custom logo</a></li>
-                  </ul>
-                </div>
-                <div class="row">
-                  <ul class="mega-links">
-                    <li><a href="#">Graphics</a></li>
-                    <li><a href="#">Vectors</a></li>
-                    <li><a href="#">Business cards</a></li>
-                    <li><a href="#">Custom logo</a></li>
-                  </ul>
-                </div>
-                <div class="row">
-                  <ul class="mega-links">
-                    <li><a href="#">Personal Email</a></li>
-                    <li><a href="#">Business Email</a></li>
-                    <li><a href="#">Mobile Email</a></li>
-                    <li><a href="#">Web Marketing</a></li>
-                  </ul>
-                </div>
-                <div class="row">
-                  <ul class="mega-links">
-                    <li><a href="#">Site Seal</a></li>
-                    <li><a href="#">VPS Hosting</a></li>
-                    <li><a href="#">Privacy Seal</a></li>
-                    <li><a href="#">Website design</a></li>
-                  </ul>
+      <div class="navbar">
+        <div class="wrapper">
+          <div class="logo">
+            <a href="/"><img src="./img/logo-new.jpg" alt="logo" /></a>
+          </div>
+          <input type="radio" name="slider" id="menu-btn" />
+          <input type="radio" name="slider" id="close-btn" />
+          <ul class="nav-links">
+            <label for="close-btn" class="btn close-btn"
+              ><i class="fas fa-times"></i
+            ></label>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li>
+              <a href="#" class="desktop-item"
+                >Products <i class="fa-solid fa-caret-down"></i
+              ></a>
+              <input type="checkbox" id="showMega" />
+              <label for="showMega" class="mobile-item">Products <i class="fa-solid fa-caret-down"></i
+                ></label>
+              <div class="mega-box">
+                <div class="content">
+                  <div class="row">
+                    <ul class="mega-links">
+                      <li><a href="#">CONCRETE TESTING INSTRUMENTS</a></li>
+                      <li><a href="#">LABORATORY GLASSWARES</a></li>
+                      <li>
+                        <a href="#">NON DESTRUCTIVE TESTING INSTRUMENTS</a>
+                      </li>
+                      <li><a href="#">MASS MEASURING INSTRUMENTS</a></li>
+                      <li>
+                        <a href="#"
+                          >PRECISION DIMENSION MEASURING INSTRUMENTS</a
+                        >
+                      </li>
+                      <li><a href="#">SURVEYING INSTRUMENTS</a></li>
+                      <li><a href="#">PAINTS</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <ul class="mega-links">
+                      <li><a href="#">AGGREGATE TESTING INSTRUMENTS</a></li>
+                      <li><a href="#">CEMENT TESTING INSTRUMENTS</a></li>
+                      <li><a href="#">SOIL & ROCK TESTING INSTRUMENTS</a></li>
+                      <li><a href="#">TILE TESTING INSTRUMENTS</a></li>
+                      <li><a href="#">REFERENCE HARDNESS BLOCKS</a></li>
+                      <li><a href="#">GENERAL</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <ul class="mega-links">
+                      <li><a href="#">CHEMICAL ANALYTICAL INSTRUMENTS</a></li>
+                      <li><a href="#">BITUMEN TESTING INSTRUMENTS</a></li>
+                      <li><a href="#">DIMENSION MEASURING INSTRUMENTS</a></li>
+                      <li><a href="#">METAL TESTING INSTRUMENTS</a></li>
+                      <li><a href="#">THERMAL INSTRUMENTS</a></li>
+                      <li><a href="#">PRESSURE INDICATING DEVICE</a></li>
+                    </ul>
+                  </div>
                 </div>
               </div>
-            </div>
-          </li>
-          <li>
-            <a href="#" class="desktop-item">Services</a>
-            <input type="checkbox" id="showDrop" />
-            <label for="showDrop" class="mobile-item">Dropdown Menu</label>
-            <ul class="drop-menu">
-              <li><a href="#">Drop menu 1</a></li>
-              <li><a href="#">Drop menu 2</a></li>
-              <li><a href="#">Drop menu 3</a></li>
-              <li><a href="#">Drop menu 4</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Clients</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">Call+8369458583</a></li>
-        </ul>
-        <label for="menu-btn" class="btn menu-btn"
-          ><i class="fas fa-bars"></i
-        ></label>
+            </li>
+            <li>
+              <a href="#" class="desktop-item"
+                >Services <i class="fa-solid fa-caret-down"></i
+              ></a>
+              <input type="checkbox" id="showDrop" />
+              <label for="showDrop" class="mobile-item">Services <i class="fa-solid fa-caret-down"></i
+                ></label>
+              <ul id="services-dropdown-menu" class="drop-menu">
+                <li><a href="#">TECHNICAL SUPPORT</a></li>
+                <li><a href="#">CRM-BUILDING MATERIAL</a></li>
+                <li><a href="#">CRMs-METAL TEST</a></li>
+                <li><a href="#">CRM- Water</a></li>
+              </ul>
+            </li>
+            <li><a href="clients.html">Clients</a></li>
+            <li><a href="contactus.html">Contact us</a></li>
+            <li><a href="#">Call+8369458583</a></li>
+          </ul>
+          <label for="menu-btn" class="btn menu-btn"
+            ><i class="fa-solid fa-bars"></i
+          ></label>
+        </div>
       </div>
     </nav>
+
+    <!------------------------------------------------ Home ---------------------------------->
 
     <section id="home">
       <div class="swiper mySwiper">
@@ -120,7 +142,7 @@
                 <span>Accessories & </span>
                 <span>CRMs</span>
                 <p>
-                  JS Civil Lab offers the widest range of quality accessories
+                  Qcc Lab offers the widest range of quality accessories
                   for Engineering testing equipment & Certified Reference
                   Materials for Civil Engineering Laboratory complying the
                   requirements of National Internation standards.
@@ -140,7 +162,7 @@
                 <span>Mechanical </span>
                 <span>Testing Equipments</span>
                 <p>
-                  JS Civil Lab offers the widest range of testing equipment of
+                  Qcc Lab offers the widest range of testing equipment of
                   construction and civil engineering Laboratories. Our Products
                   designed in such a way to meet the requirements of National /
                   Internation standards.
@@ -160,7 +182,7 @@
                 <span>Non Destructive </span>
                 <span>Testing Equipments</span>
                 <p>
-                  JS Civil Lab offers the widest range of quality accessories
+                  Qcc Lab offers the widest range of quality accessories
                   for Engineering testing equipment & Certified Reference
                   Materials for Civil Engineering Laboratory complying the
                   requirements of National Internation standards.
@@ -175,76 +197,348 @@
       </div>
     </section>
 
+    <!------------------------------------------------- Products -------------------------------------------------->
+
     <section class="section section-product">
       <h1>Our Products</h1>
       <div class="product-container">
         <div class="product-card1">
-          <img src="assests/pic2.jpg" alt="image" />
+          <img
+            src="WhatsApp Image 2024-12-13 at 18.35.16_adfe0765.jpg"
+            alt="image"
+          />
           <h3>METAL TESTING INSTRUMENTS</h3>
-          <div class="product-card-button">
-            <!-- <button>Enter</button> -->
-          </div>
         </div>
 
         <div class="product-card1">
           <img src="assests/pic2.jpg" alt="image" />
           <h3>METAL TESTING INSTRUMENTS</h3>
-          <div class="product-card-button">
-            <!-- <button>Enter</button> -->
-          </div>
         </div>
 
         <div class="product-card1">
           <img src="assests/pic2.jpg" alt="image" />
           <h3>METAL TESTING INSTRUMENTS</h3>
-          <div class="product-card-button">
-            <!-- <button>Enter</button> -->
-          </div>
         </div>
+
         <div class="product-card1">
           <img src="assests/pic2.jpg" alt="image" />
           <h3>METAL TESTING INSTRUMENTS</h3>
-          <div class="product-card-button">
-            <!-- <button>Enter</button> -->
-          </div>
         </div>
       </div>
+
       <div class="product-container">
         <div class="product-card1">
-          <img src="assests/pic2.jpg" alt="image" />
+          <img src="assests/pic3.jpg" alt="image" />
           <h3>METAL TESTING INSTRUMENTS</h3>
-          <div class="product-card-button">
-            <!-- <button>Enter</button> -->
-          </div>
         </div>
 
         <div class="product-card1">
           <img src="assests/pic2.jpg" alt="image" />
           <h3>METAL TESTING INSTRUMENTS</h3>
-          <div class="product-card-button">
-            <!-- <button>Enter</button> -->
-          </div>
+        </div>
+
+        <div class="product-card1">
+          <img src="assests/pic3.jpg" alt="image" />
+          <h3>METAL TESTING INSTRUMENTS</h3>
         </div>
 
         <div class="product-card1">
           <img src="assests/pic2.jpg" alt="image" />
           <h3>METAL TESTING INSTRUMENTS</h3>
-          <div class="product-card-button">
-            <!-- <button>Enter</button> -->
-          </div>
-        </div>
-        <div class="product-card1">
-          <img src="assests/pic2.jpg" alt="image" />
-          <h3>METAL TESTING INSTRUMENTS</h3>
-          <div class="product-card-button">
-            <!-- <button>Enter</button> -->
-          </div>
         </div>
       </div>
     </section>
-    <section class="section section-services">
+    <!----------------------------------------------------------- services ------------------------------------------->
+
+    <section class="services">
       <h1>Our Services</h1>
+      <h3>
+        Our services are designed to ensure precision, reliability, and
+        efficiency in every project.
+      </h3>
+      <div class="rap">
+        <div class="services-col">
+          <h2>Calibration Of Equipments</h2>
+          <p>
+            Calibration of equipment is essential to maintain the accuracy and
+            reliability of instruments in various industries. Our expert team
+            provides precise calibration services using state-of-the-art
+            technology to ensure that your equipment meets industry standards
+            and regulatory requirements. We understand the importance of
+            accuracy in your operations, which is why we use certified
+            procedures to provide calibration that enhances the longevity and
+            performance of your instruments. Trust us to deliver high-quality,
+            reliable calibration solutions tailored to meet the specific needs
+            of your equipment.
+          </p>
+        </div>
+        <div class="services-c">
+          <h2>Lab Setup Services</h2>
+          <p>
+            Setting up a functional, efficient, and safe laboratory requires
+            expertise and attention to detail. Our lab setup services are
+            designed to support your operational needs by creating an optimized
+            work environment. From planning the layout to installing equipment,
+            we manage every step to ensure your lab meets industry standards for
+            quality and safety. Whether it's for research, production, or
+            testing purposes, our team delivers customized solutions that foster
+            productivity and comply with all relevant regulations. Rely on us
+            for lab setups that combine functionality, efficiency, and safety.
+          </p>
+        </div>
+        <div class="services-co">
+          <h2>Maintenance & Repairing Services</h2>
+          <p>
+            Regular maintenance and timely repairs are crucial to extend the
+            life of your equipment and minimize downtime. Our maintenance and
+            repair services are aimed at ensuring that your machinery and
+            instruments remain in top working condition. With a team of skilled
+            technicians, we offer preventive maintenance to avoid unexpected
+            breakdowns and quick, efficient repair services to resolve any
+            issues promptly. Our goal is to provide you with peace of mind and
+            uninterrupted operations by keeping your equipment in optimal
+            condition. Choose us for dependable maintenance and repair solutions
+            that maximize productivity and minimize disruptions.
+          </p>
+        </div>
+      </div>
     </section>
+
+    <!------------------------------------------ why choose us ------------------------------------------------------->
+
+    <section class="choose">
+      <h1>Why Choose Us ?</h1>
+      <h3>
+        We deliver exceptional quality, personalized service, and reliable
+        results tailored to meet your needs. Trust us for a seamless experience
+        and proven expertise.
+      </h3>
+      <div class="row">
+        <div class="choose-col">
+          <img src="assests/high quality.jpg" />
+          <h3>High Quality Equipment</h3>
+          <p>
+            Qcc lab delivers quality product complying the National or
+            International requirement of specification as per customer request.
+          </p>
+        </div>
+        <div class="choose-col">
+          <img src="assests/offers.jpg" />
+          <h3>Offers Technical Services</h3>
+          <p>
+            Qcc Lab offers the product to meet the requirement of customer use
+            that's why we chosen by professionals. JS Civil Lab managed by user-
+            friendly staff to meet their requirements.
+          </p>
+        </div>
+        <div class="choose-col">
+          <img src="assests/delivery.jpg" />
+          <h3>Delivery Commitments</h3>
+          <p>
+            Qcc Lab delivers the products and services within the stipulated
+            time frame
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="slider">
+      <div class="slide-track">
+        <div class="slide">
+          <img src="img/cl1.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/cl2.jpg" alt="" />
+        </div>
+
+        <div class="slide">
+          <img src="img/cl3.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/cl4.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/cl5.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/cl6.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/cl7.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/cl8.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/cl9.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/cl10.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/cl11.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/cl12.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/cl13.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/cl4.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/cl15.jpg" alt="" />
+        </div>
+
+        <div class="slide">
+          <img src="img/cl16.jpg" alt="" />
+        </div>
+
+        <div class="slide">
+          <img src="img/cl17.jpg" alt="" />
+        </div>
+
+        <div class="slide">
+          <img src="img/cl18.jpg" alt="" />
+        </div>
+
+        <div class="slide">
+          <img src="img/cl19.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/cl20.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/cl21.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/cl22.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/cl23.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/cl24.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/cl25.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/cl26.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/cl27.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/cl28.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/cl229.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/cl30.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/cl31.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/cl32.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/cl33.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/cl35.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/cl36.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!------ Call To Action ------>
+
+    <section class="cta">
+      <h1>Interact For Our Various Services<br />Anywhere From The World</h1>
+      <a href="contactus.html" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!----------------------footer------------------------------------>
+    <footer>
+      <div class="footer-col">
+        <h3>Use Full Links</h3>
+        <li>Home</li>
+        <li>Abouts Us</li>
+        <li>Clients</li>
+        <li>Gallery</li>
+        <li>Contact Us</li>
+      </div>
+      <div class="footer-col">
+        <h3>Products</h3>
+        <li>CONCRETE TESTING INSTRUMENTS</li>
+        <li>LABORATORY GLASSWARES</li>
+        <li>NON DESTRUCTIVE TESTING INSTRUMENTS</li>
+        <li>MASS MEASURING INSTRUMENTS</li>
+        <li>PRECISION DIMENSION MEASURING INSTRUMENTS</li>
+        <li>SURVEYING INSTRUMENTS</li>
+        <li>PAINTS</li>
+      </div>
+      <div class="footer-col">
+        <h3></h3>
+        <li>AGGREGATE TESTING INSTRUMENTS</li>
+        <li>CEMENT TESTING INSTRUMENTS</li>
+        <li>SOIL & ROCK TESTING INSTRUMENTS</li>
+        <li>TILE TESTING INSTRUMENTS</li>
+        <li>REFERENCE HARDNESS BLOCKS</li>
+        <li>GENERAL</li>
+      </div>
+      <div class="footer-col">
+        <h3></h3>
+        <li>CHEMICAL ANALYTICAL INSTRUMENTS</li>
+        <li>BITUMEN TESTING INSTRUMENTS</li>
+        <li>DIMENSION MEASURING INSTRUMENTS</li>
+        <li>METAL TESTING INSTRUMENTS</li>
+        <li>THERMAL INSTRUMENTS</li>
+        <li>PRESSURE INDICATING DEVICE</li>
+      </div>
+
+      <div class="footer-col">
+        <h3>Address</h3>
+        <li>U78, Ground floor, near Durga Mata Mandir Road,<br /></li>
+        <li>Sector 4, Airoli, Navi Mumbai, Maharashtra 400708</li>
+      </div>
+      <div class="footer-col">
+        <h3>Contact</h3>
+        <p>Email: abhinav@qcclabsolutions.com</p>
+        <p>Call Us: +91 8369458583</p>
+      </div>
+
+      <div class="footer-col">
+        <h3>News letter</h3>
+        <p>You can trust us. we only send promo offrrs</p>
+        <div class="subscribe">
+          <input type="text" placeholder="Your Email address" />
+          <a href="#" class="yellow">subscribe</a>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>
+          Copyright @2024 All rights reserved | Made with
+          <span class="spin">💖</span> By
+          <strong><i> Abhishek , Raghvendra & Harsh </i></strong>
+        </p>
+        <div class="pro-links">
+          <i class="fa-solid fa-envelope"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-solid fa-phone"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+    </footer>
 
     <script src="./script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
